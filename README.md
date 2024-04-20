@@ -5,7 +5,8 @@
 Create a directory structure for your package. A typical structure would look something like this:
 
 
-> weather_package/
+```python
+ weather_package/
 │
 ├── weather_package/
 │   ├── __init__.py
@@ -14,6 +15,7 @@ Create a directory structure for your package. A typical structure would look so
 ├── README.md
 ├── LICENSE
 └── setup.py
+```
 
 
 1. weather_package/: The root directory of the package.
