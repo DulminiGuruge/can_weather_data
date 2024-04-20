@@ -22,7 +22,7 @@ setup(
     long_description_content_type='text/markdown',
     license='MIT',
     keywords='weather package climate data',
-    url='https://github.com/yourusername/yourpackage',
+    url='https://github.com/DulminiGuruge/can_weather_data',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
