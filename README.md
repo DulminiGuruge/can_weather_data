@@ -3,8 +3,9 @@
 **can_weather_data** is a Python library that allows you to retrieve weather data from climate.weather.gc.ca. This package provides functions to extract historical weather data for a given location and time period. It uses the **env_canada** library to access historical weather data from Environment and Climate Change Canada.
 
 ### Installation
+Visit https://pypi.org/project/can-weather-data/ to view the package in PYPI.
 
-pip install can_weather_data
+>pip install can-weather-data
 
 ### Usage
 
