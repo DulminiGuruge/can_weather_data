@@ -1,7 +1,6 @@
-
 # Canada Weather Data Package
 
-A Python package to retrieve weather data from climate.weather.gc.ca.
+**can_weather_data** is a Python library that allows you to retrieve weather data from climate.weather.gc.ca. This package provides functions to extract historical weather data for a given location and time period. It uses the **env_canada** library to access historical weather data from Environment and Climate Change Canada.
 
 ### Installation
 
@@ -50,6 +49,7 @@ data_extract(cord_list, start_date, end_date)
 ##### Build the package
 
 >cd weather_package
+
 >python setup.py sdist bdist_wheel
 
 ##### Install the package
