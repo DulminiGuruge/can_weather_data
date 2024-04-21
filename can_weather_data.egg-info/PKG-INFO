@@ -13,10 +13,9 @@ Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-
 # Canada Weather Data Package
 
-A Python package to retrieve weather data from climate.weather.gc.ca.
+**can_weather_data** is a Python library that allows you to retrieve weather data from climate.weather.gc.ca. This package provides functions to extract historical weather data for a given location and time period. It uses the **env_canada** library to access historical weather data from Environment and Climate Change Canada.
 
 ### Installation
 
@@ -38,28 +37,5 @@ data_extract(cord_list, start_date, end_date)
 
 
 
-##### Organization of the files to converte weatherdata.py file into a Python package
-
-Create a directory structure for your package. A typical structure would look something like this:
 
 
-```python
- can_weather_data/
-│
-├── can_weather_data/
-│   ├── __init__.py
-│   └── weatherdata.py
-│
-├── README.md
-├── LICENSE
-└── setup.py
-```
-
-
-1. can_weather_data/: The root directory of the package.
-2. can_weather_data/can_weather_data/: The Python package directory.
-3. can_weather_data/can_weather_data/__init__.py: Initialization script.
-4. can_weather_data/can_weather_data/weatherdata.py: Python module containing the function.
-5. README.md: Description of the package.
-6. LICENSE: License for the package.
-7. setup.py: Script to package the project.
