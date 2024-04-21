@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: can-weather-data
+Version: 0.1
+Summary: Weather Data From climate.weather.gc.ca
+Home-page: https://github.com/DulminiGuruge/can_weather_data
+Author: Dulmini Guruge
+Author-email: dulminiguruge@gmail.com
+License: MIT
+Keywords: weather package climate data
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 
 # Canada Weather Data Package
 
@@ -23,7 +38,10 @@ data_extract(cord_list, start_date, end_date)
 
 
 
-#### The directory structure of the package.:
+##### Organization of the files to converte weatherdata.py file into a Python package
+
+Create a directory structure for your package. A typical structure would look something like this:
+
 
 ```python
  can_weather_data/
@@ -37,6 +55,7 @@ data_extract(cord_list, start_date, end_date)
 └── setup.py
 ```
 
+
 1. can_weather_data/: The root directory of the package.
 2. can_weather_data/can_weather_data/: The Python package directory.
 3. can_weather_data/can_weather_data/__init__.py: Initialization script.
@@ -44,15 +63,3 @@ data_extract(cord_list, start_date, end_date)
 5. README.md: Description of the package.
 6. LICENSE: License for the package.
 7. setup.py: Script to package the project.
-
-#### Build and Install the Package
-
-##### Build the package
-
->cd weather_package
->python setup.py sdist bdist_wheel
-
-##### Install the package
-
->pip install .
-
